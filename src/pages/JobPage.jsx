@@ -39,7 +39,7 @@ const JobPage = ({ deleteJob }) => {
 
     toast.success('Job deleted successfully');
 
-    navigate('/jobs');
+    navigate('/job');
   };
 
   return (

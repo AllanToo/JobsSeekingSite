@@ -6,13 +6,13 @@ import {
 } from "react-router-dom";
 import React from 'react'
 ;
-import HomePage from "./pages/HomePage";
-import MainLayout from "./layouts/MainLayout";
-import JobsPage from "./pages/JobsPage";
-import NotFoundPage from "./pages/NotFoundPage"
-import JobPage, {jobLoader} from "./pages/JobPage";
-import AddJobPage from "./pages/AddJobPage";
-import EditJobPage from "./pages/EditJobPage";
+import HomePage from "./src/pages/HomePage";
+import MainLayout from "./src/layouts/MainLayout";
+import JobsPage from "./src/pages/JobsPage";
+import NotFoundPage from "./src/pages/NotFoundPage"
+import JobPage, {jobLoader} from "./src/pages/JobPage";
+import AddJobPage from "./src/pages/AddJobPage";
+import EditJobPage from "./src/pages/EditJobPage";
 
 const App = () => {
   // Add New Job
