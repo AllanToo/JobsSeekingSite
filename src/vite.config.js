@@ -8,7 +8,7 @@ export default defineConfig({
     port:4000,
     proxy:{
       '/api':{
-        target:'http://localhost:8000/',
+        target:'https://jobs-seeking-site-api.vercel.app/',
         changeOrigin: true,
         rewrite:(path) => path.replace(/^\/api/,''),
       }
