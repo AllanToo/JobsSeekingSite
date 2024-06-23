@@ -10,7 +10,7 @@ export default defineConfig({
       '/api':{
         target:'https://jobs-seeking-site-api.vercel.app/',
         changeOrigin: true,
-        rewrite:(path) => path.replace(/^\/api/,''),
+        rewrite:(path) => path.replace(/^\/api/,''),  
       }
     }
   }
